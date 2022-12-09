@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		8B38AF5329422C75000AEF09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF5229422C75000AEF09 /* AppDelegate.swift */; };
 		8B38AF5529422C75000AEF09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF5429422C75000AEF09 /* SceneDelegate.swift */; };
-		8B38AF5729422C75000AEF09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF5629422C75000AEF09 /* ViewController.swift */; };
-		8B38AF5A29422C75000AEF09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B38AF5829422C75000AEF09 /* Main.storyboard */; };
 		8B38AF5D29422C75000AEF09 /* Card_Workout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF5B29422C75000AEF09 /* Card_Workout.xcdatamodeld */; };
 		8B38AF5F29422C77000AEF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B38AF5E29422C77000AEF09 /* Assets.xcassets */; };
 		8B38AF6229422C77000AEF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B38AF6029422C77000AEF09 /* LaunchScreen.storyboard */; };
 		8B38AF6D29422C77000AEF09 /* Card_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF6C29422C77000AEF09 /* Card_WorkoutTests.swift */; };
 		8B38AF7729422C77000AEF09 /* Card_WorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF7629422C77000AEF09 /* Card_WorkoutUITests.swift */; };
 		8B38AF7929422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF7829422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift */; };
+		8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */; };
+		8B40295B29433384005DB28A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295A29433384005DB28A /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		8B38AF4F29422C75000AEF09 /* Card Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B38AF5229422C75000AEF09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B38AF5429422C75000AEF09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B38AF5629422C75000AEF09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B38AF5929422C75000AEF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B38AF5C29422C75000AEF09 /* Card_Workout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card_Workout.xcdatamodel; sourceTree = "<group>"; };
 		8B38AF5E29422C77000AEF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B38AF6129422C77000AEF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		8B38AF7229422C77000AEF09 /* Card WorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card WorkoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B38AF7629422C77000AEF09 /* Card_WorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WorkoutUITests.swift; sourceTree = "<group>"; };
 		8B38AF7829422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		8B40295A29433384005DB28A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 		8B38AF5129422C75000AEF09 /* Card Workout */ = {
 			isa = PBXGroup;
 			children = (
+				8B40295929433378005DB28A /* Extensions */,
+				8B38AFF92942538D000AEF09 /* Controllers */,
 				8B38AF5229422C75000AEF09 /* AppDelegate.swift */,
 				8B38AF5429422C75000AEF09 /* SceneDelegate.swift */,
-				8B38AF5629422C75000AEF09 /* ViewController.swift */,
-				8B38AF5829422C75000AEF09 /* Main.storyboard */,
 				8B38AF5E29422C77000AEF09 /* Assets.xcassets */,
 				8B38AF6029422C77000AEF09 /* LaunchScreen.storyboard */,
 				8B38AF6329422C77000AEF09 /* Info.plist */,
@@ -128,6 +128,22 @@
 				8B38AF7829422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift */,
 			);
 			path = "Card WorkoutUITests";
+			sourceTree = "<group>";
+		};
+		8B38AFF92942538D000AEF09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B40295929433378005DB28A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B40295A29433384005DB28A /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +252,6 @@
 			files = (
 				8B38AF6229422C77000AEF09 /* LaunchScreen.storyboard in Resources */,
 				8B38AF5F29422C77000AEF09 /* Assets.xcassets in Resources */,
-				8B38AF5A29422C75000AEF09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B38AF5729422C75000AEF09 /* ViewController.swift in Sources */,
 				8B38AF5D29422C75000AEF09 /* Card_Workout.xcdatamodeld in Sources */,
+				8B40295B29433384005DB28A /* UIColor.swift in Sources */,
+				8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */,
 				8B38AF5329422C75000AEF09 /* AppDelegate.swift in Sources */,
 				8B38AF5529422C75000AEF09 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B38AF5829422C75000AEF09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B38AF5929422C75000AEF09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B38AF6029422C77000AEF09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,8 +453,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Card Workout/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,8 +480,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Card Workout/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
