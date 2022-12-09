@@ -18,6 +18,7 @@
 		8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */; };
 		8B40295B29433384005DB28A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295A29433384005DB28A /* UIColor.swift */; };
 		8B40295E29433533005DB28A /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295D29433533005DB28A /* CWButton.swift */; };
+		8B40296029433E38005DB28A /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295F29433E38005DB28A /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		8B40295A29433384005DB28A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8B40295D29433533005DB28A /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		8B40295F29433E38005DB28A /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				8B38AF6029422C77000AEF09 /* LaunchScreen.storyboard */,
 				8B38AF6329422C77000AEF09 /* Info.plist */,
 				8B38AF5B29422C75000AEF09 /* Card_Workout.xcdatamodeld */,
+				8B40295F29433E38005DB28A /* CardDeck.swift */,
 			);
 			path = "Card Workout";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				8B40295E29433533005DB28A /* CWButton.swift in Sources */,
 				8B40295B29433384005DB28A /* UIColor.swift in Sources */,
 				8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */,
+				8B40296029433E38005DB28A /* CardDeck.swift in Sources */,
 				8B38AF5329422C75000AEF09 /* AppDelegate.swift in Sources */,
 				8B38AF5529422C75000AEF09 /* SceneDelegate.swift in Sources */,
 			);
