@@ -17,6 +17,7 @@
 		8B38AF7929422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AF7829422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift */; };
 		8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */; };
 		8B40295B29433384005DB28A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295A29433384005DB28A /* UIColor.swift */; };
+		8B40295E29433533005DB28A /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295D29433533005DB28A /* CWButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8B38AF7829422C77000AEF09 /* Card_WorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		8B40295A29433384005DB28A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8B40295D29433533005DB28A /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8B38AF5129422C75000AEF09 /* Card Workout */ = {
 			isa = PBXGroup;
 			children = (
+				8B40295C294334D7005DB28A /* Components */,
 				8B40295929433378005DB28A /* Extensions */,
 				8B38AFF92942538D000AEF09 /* Controllers */,
 				8B38AF5229422C75000AEF09 /* AppDelegate.swift */,
@@ -144,6 +147,14 @@
 				8B40295A29433384005DB28A /* UIColor.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B40295C294334D7005DB28A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8B40295D29433533005DB28A /* CWButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B38AF5D29422C75000AEF09 /* Card_Workout.xcdatamodeld in Sources */,
+				8B40295E29433533005DB28A /* CWButton.swift in Sources */,
 				8B40295B29433384005DB28A /* UIColor.swift in Sources */,
 				8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */,
 				8B38AF5329422C75000AEF09 /* AppDelegate.swift in Sources */,
