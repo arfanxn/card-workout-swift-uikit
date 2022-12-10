@@ -19,6 +19,7 @@
 		8B40295B29433384005DB28A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295A29433384005DB28A /* UIColor.swift */; };
 		8B40295E29433533005DB28A /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295D29433533005DB28A /* CWButton.swift */; };
 		8B40296029433E38005DB28A /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40295F29433E38005DB28A /* CardDeck.swift */; };
+		8B40296229440583005DB28A /* RuleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40296129440583005DB28A /* RuleDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8B40295A29433384005DB28A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8B40295D29433533005DB28A /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
 		8B40295F29433E38005DB28A /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
+		8B40296129440583005DB28A /* RuleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8B38AFFA294253A0000AEF09 /* CardSelectionVC.swift */,
+				8B40296129440583005DB28A /* RuleDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B38AF5D29422C75000AEF09 /* Card_Workout.xcdatamodeld in Sources */,
+				8B40296229440583005DB28A /* RuleDetailVC.swift in Sources */,
 				8B40295E29433533005DB28A /* CWButton.swift in Sources */,
 				8B40295B29433384005DB28A /* UIColor.swift in Sources */,
 				8B38AFFB294253A0000AEF09 /* CardSelectionVC.swift in Sources */,
